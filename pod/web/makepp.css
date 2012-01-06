@@ -1,0 +1,27 @@
+body{margin:0;background-color:white;color:black;font-family:Helvetica,Verdana,Arial,sans-serif;}
+img{border:0;}
+#head{position:relative;background-image:url(bg.png);width:100%;border-bottom:solid 8px #999999;}#head>a img{padding:0;margin:0;width:261px;height:118px;}
+#head form{padding:23px 23px 0 0;float:right;}#head form input{padding:1px 2px;width:53px;background:#eeeeee url(google.png) no-repeat center;}
+#head form input:focus{width:15em;background-image:none;}
+#head form input:focus:after{content:" Hit return to search!";color:#00f;font-size:70%;}
+#head div{position:absolute;right:0;bottom:0;padding:0;width:637px;}#head div img{width:90px;height:23px;vertical-align:bottom;padding-left:1px;}
+body>ul{overflow-x:hidden;overflow-y:hidden;overflow:hidden;width:12em;padding:0;margin:0;background-color:#d6e0f5;list-style:inside url(nav.png);white-space:nowrap;border-collapse:collapse;border-bottom:solid 8px #999999;}body>ul #close{list-style-image:none;list-style-type:none;padding:0;margin:0;border:hidden;height:23px;margin:0;background:black;text-align:right;color:white;}body>ul #close span{padding:4px 6px 0 6px;cursor:pointer;}
+body>ul #act{background-color:#b9caee;}
+body>ul li{border-top:solid 1px white;padding:4px;}body>ul li.fold{cursor:n-resize;}
+body>ul li.unfold{cursor:s-resize;}body>ul li.unfold ul{display:none;}
+body>ul ul{padding-left:0;margin:0;padding-bottom:4px;list-style:inside url(nav2.png);}body>ul ul li{border-top-width:0;padding:1px;font-size:85%;}
+.left{float:left;}
+.right{float:right;}
+.none{display:none;}
+#main{display:block;overflow-x:hidden;overflow-y:hidden;overflow:hidden;width:auto;padding:0 20px 0 20px;margin:0 0 20px 0;clear:none;}
+h1{margin-top:20px;}
+h1,h2,h3{color:#244890;}
+b{color:#222222;}
+a b,h1 b,h2 b,h3 b{color:inherit;}
+pre{min-width:90%;background-color:#ebf0fa;border:dotted 2px #2850a4;padding:10px 10px 10px;}
+hr{width:33%;margin-right:67%;}
+dt{font-weight:bold;}
+.comment{color:brown;}
+.tall{font-size:180%;vertical-align:text-bottom;}
+address{text-align:right;}
+#clear{clear:both;}
